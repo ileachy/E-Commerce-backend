@@ -14,5 +14,5 @@
 
 ## Questions
 
-[GitHub](https://github.com/ileachy)
-[Email](mailto:ileach81@gmail.com)
+- [GitHub](https://github.com/ileachy)
+- [Email](mailto:ileach81@gmail.com)
