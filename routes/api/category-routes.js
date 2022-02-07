@@ -85,12 +85,12 @@ router.delete("/:id", (req, res) => {
       id: req.params.id,
     },
   })
-    .then((dbCategoryData) => {
-      if (!dbCategoryData) {
-        res.status(404).json({ message: "No category with that ID" });
+    .then((dbUserData) => {
+      if (!dbUserData) {
+        res.status(404).json({ message: "No user with that ID" });
         return;
       }
-      res.json(dbCategoryData);
+      res.json(dbUserData);
     })
     .catch((err) => {
       console.log(err);
